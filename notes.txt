@@ -1,26 +1,52 @@
-Merged Mining
-=============
+Merged Mining, SathoshiLabs, GeneralBytes (Switzerland 2015)
+============================================================
 
   Ondrej Sika <ondrej@ondrejsika.com>
   Slush Pool (mining.bitcoin.cz)
 
 
+Parts
+-----
+
+1. Slush Pool, Merge Mining
+2. SatoshiLabs - Trezor, MyTrezor, Coinmap
+3. GeneralBytes - ATM
+
+
+
 Slides
 ------
-Intro - part 1
-Bitcoin
-Namecoin
-How Bitcoin Minig Works - part 2
-Block
-Block Header
-Blockchain
-Mining - part 3
-Proof of Work
-Aux POW
-Bitcoin MergedMining Coinbase
-Principle of Aux POW
-Namecoin Block
-Questions
+
+Part 1: Merge Mining
+
+- About me, Slush Pool
+- Mining
+- Proof of Work
+- Block
+- Block Header
+- Blockchain
+- Merge Mining
+- Aux POW
+- Bitcoin MM Coinbase
+- Principle of Aux POW
+- Namecoin Block
+
+Part 2: Satoshilabs
+
+- Who are Satoshilabs
+- Our products
+- Trezor
+- Security
+- My Trezor
+- Coinmap
+
+Part 3: GeneralBytes
+
+- About GeneralBytes
+- ATM small
+- ATM large
+
+- Questions
 
 
 Intro - part 1
