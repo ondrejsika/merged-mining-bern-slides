@@ -36,50 +36,44 @@
 
     \vspace{5mm}
 
-    * first altcoin\\
-    * fork of Bitcoin\\
-    * distributed DNS\\
-
-\end{frame}
-
-%%% UNEDITED BEGIN %%%
-
-\begin{frame}
-
-    {\Huge How Bitcoin Mining Works?}\\
-
 \end{frame}
 
 \begin{frame}
 
-    {\Huge Block}\\
+    {\LARGE Ondrej Sika}\\
 
     \vspace{5mm}
 
-    * header\\
-    * transactions\\
+    - Work on mining pool (backend)\\
+    - Bitcoin, Namecoin, Python/Twisted\\
 
+    \vspace{10mm}
 
-\end{frame}
-
-\begin{frame}
-
-    {\Huge Block Header}\\
+    {\LARGE Slush pool}\\
 
     \vspace{5mm}
 
-    * version\\
-    * hashPrevBlock\\
-    * hashMerkelRoot\\
-    * time\\
-    * bits (difficulty)\\
-    * nonce\\
+    - First mining pool, founded 2011\\
+    - Creator of stratum mining protocol\\
+    - 20 000 miners, 5\% network hashrate\\
+
 
 \end{frame}
 
 \begin{frame}
 
-    {\Huge Blockchain}\\
+    {\LARGE Mining, why?}\\
+
+    \vspace{5mm}
+
+    - trustless timestamping\\
+    - distribution of coins\\
+
+\end{frame}
+
+\begin{frame}
+
+    {\LARGE Blockchain}\\
 
     \vspace{5mm}
 
@@ -89,25 +83,49 @@
 
 \begin{frame}
 
-    {\Huge Mining}\\
+    {\LARGE Block}\\
+
+    \vspace{5mm}
+
+    - keep transaction information\\
+    - some additional data\\
+
+    \vspace{5mm}
+
+    - header\\
+    - transactions\\
 
 \end{frame}
 
 \begin{frame}
 
-    {\Huge Proof of Work}\\
+    {\LARGE Block Header}\\
+
+    \vspace{5mm}
+
+    - version\\
+    - hashPrevBlock\\
+    - hashMerkelRoot\\
+    - time\\
+    - bits (difficulty)\\
+    - nonce\\
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+    {\LARGE Proof of Work}\\
 
     \vspace{5mm}
 
     "A proof of work is a piece of data which was difficult (costly, time-consuming) to produce so as to satisfy certain requirements"\\
-\end{frame}
 
-\begin{frame}[fragile]
+    \vspace{5mm}
+
     \begin{verbatim}
 "Hello, world!0" => 1312af178c253f84...
 "Hello, world!1" => e9afc424b79e4f6a...
 "Hello, world!2" => ae37343a357a8297...
-.
 .
 .
 "Hello, world!4248" => 6e110d98b388e...
@@ -119,7 +137,18 @@
 
 \begin{frame}
 
-    {\Huge Auxiliary POW}\\
+    {\LARGE Merged Mining, why?}\\
+
+    \vspace{5mm}
+
+    - mining multiple coins with one hashrate\\
+    - better security of altcoin\\
+
+\end{frame}
+
+\begin{frame}
+
+    {\LARGE Auxiliary POW}\\
 
     \vspace{5mm}
 
@@ -129,57 +158,51 @@
 
 \begin{frame}
 
-    {\Huge Bitcoin Coinbase}\\
+    {\LARGE Bitcoin Coinbase}\\
 
     \vspace{5mm}
 
-    * block height\\
-    * flags\\
-    * merged mining prefix\\
-    * namecoin prevhash\\
-    * ...\\
-
-\end{frame}
-
-\begin{frame}
-
-    {\Huge Principle of Aux POW}\\
-
-\end{frame}
-
-\begin{frame}
-
-    \includegraphics[scale=0.185]{img/principle_of_auxpow}
-
-\end{frame}
-
-\begin{frame}
-
-    {\Huge Namecoin Block}\\
+    - Input of first transaction in block\\
+    - 100 Bytes for free use\\
 
     \vspace{5mm}
 
-    * header\\
-    * auxpow (btc coinbase tx, btc branch, btc header)\\
-    * transactions\\
-
-%    \vspace{5mm}
-
-%    \begin{tabular}{|l|}
-%    \hline
-%    HEADER\\
-%    \hline
-%    BITCOIN BLOCK HEADER\\
-%    \hline
-%    BITCOIN COINBASE \\
-%    \hline
-%    TRANSACTIONS\\
-%    \hline
-%    \end{tabular}
+    - block height\\
+    - flags\\
+    - merged mining prefix\\
+    - namecoin prevhash\\
+    - ...\\
 
 \end{frame}
 
-%%% UNEDITED END %%%
+\begin{frame}
+
+    {\LARGE Principle of Aux POW}\\
+
+    \includegraphics[scale=0.15]{img/principle_of_auxpow}
+
+\end{frame}
+
+\begin{frame}
+
+    {\LARGE SatoshiLabs}\\
+
+    \vspace{5mm}
+
+    - Trezor\\
+    - MyTrezor\\
+    - Slush Pool\\
+    - CoinMap 2.0\\
+
+\end{frame}
+
+\begin{frame}
+
+    {\LARGE GeneralBytes - Bitcoin ATMs}\\
+
+    \vspace{5mm}
+
+\end{frame}
 
 \begin{frame}
 
